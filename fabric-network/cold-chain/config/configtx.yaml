@@ -28,11 +28,6 @@ Organizations:
           Type: Signature
           Rule: "OR('OrdererMSP.admin')"
 
-      OrdererEndpoints:
-        - orderer0.orderer.cold.dfir.local:8050
-        - orderer1.orderer.cold.dfir.local:8051
-        - orderer2.orderer.cold.dfir.local:8052
-
   # ForensicLabMSP - Forensic Laboratory Organization
   - &ForensicLabMSP
       Name: ForensicLabMSP
